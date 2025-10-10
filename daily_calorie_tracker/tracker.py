@@ -73,12 +73,9 @@ def intake_analysis(total_calories,daily_limit):
         if daily_limit== total_calories:
             print("✨  A True Perfectionist!🎯")
             print("You have completed your calorie intake goal for today!")
-            print("👏 Good Job")
-            print(f"You almost maxed out your calorie intake today with {calories_left:.2f} calories left!")
-            print("Discipline is the Key to Success and you my friend,are on the right path.")
         elif calories_left > 200:
             print("You are lacking Behind!⚠️")
-            print(f"Your calorie intake today was {calories_left} kcal less than your calorie limit")
+            print(f"Your calorie intake today was {calories_left} kcal less than your calorie limit.")
             print("Its time to lock in!")
 
         elif calories_left <= 200 :
